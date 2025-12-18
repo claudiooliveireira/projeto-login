@@ -57,6 +57,7 @@ section#login {
 
 /* imagem */
 section#login > div#imagem {
+    
     display: block;
     background: #C3924F url(../image/pexels-abujunis-10506651.jpg) no-repeat;
     background-size: cover;
