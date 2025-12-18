@@ -42,8 +42,8 @@ section#login {
 
     /* estilização do box de login */
     background-color: white;
-    width: 250px;
-    height: 500px;
+    width: 270px;
+    height: 515px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
@@ -79,11 +79,69 @@ div#formulario > p {
     font-size: 0.8em;
 }
 
+/* campos do formulário */
+
+
+
+form > div.campo {
+    background-color: #AFA7A5;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+div.campo > label {
+    display: none; /* esconde o txt do label */ 
+}
 
 
 
 
 
 
+/* botão */ 
+
+form > input[type=submit] {
+
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #6b98bb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color:#21547c ;
+}
+
+/* botão link */
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: white;
+    color: #21547c;
+    border: 1px solid #6b98bb;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+form > a.botao > span {
+    font-size: 0.8em;
+}
+
+form > a.botao:hover {
+    background-color: #add8fa;
+}
 
 
