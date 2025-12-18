@@ -37,18 +37,19 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    
 
 
     /* estilização do box de login */
     background-color: white;
-    width: 270px;
+    width: 269px;
     height: 515px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
 
     /* animação simples */ 
+    transform: translate(-50%, -50%);
     transition: width .5s, height .5s;
     transition-timing-function: ease; /* suaviza a transição*/
 
@@ -84,21 +85,44 @@ div#formulario > p {
 
 
 form > div.campo {
-    background-color: #AFA7A5;
+    background-color: #A28C77;
+    border: 3px solid #A28C77;
     display: block;
     width: 100%;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 }
-
+/* esconde o txt do label */
 div.campo > label {
     display: none; /* esconde o txt do label */ 
 }
 
+/* campo span icone */
+div.campo > span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 4px;
+}
 
+/* campo box input */
+div.campo > input {
+    background-color: #c5def1;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-11px);
+}
 
-
+/* foco no campo input, quando estiver digitando */
+div.campo > input:focus-within {
+    background-color: white;
+    
+}
 
 
 /* botão */ 
