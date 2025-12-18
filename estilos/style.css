@@ -57,7 +57,7 @@ section#login {
 
 /* imagem */
 section#login > div#imagem {
-    
+
     display: block;
     background: #C3924F url(../image/pexels-abujunis-10506651.jpg) no-repeat;
     background-size: cover;
@@ -116,7 +116,7 @@ div.campo > input {
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-11px);
+    transform: translateY(-10px);
 }
 
 /* foco no campo input, quando estiver digitando */
